@@ -1,0 +1,71 @@
+h3 {
+  font-family: mr-eaves-modern, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  color: rgb(73, 34, 11);
+  font-size: 25px;
+}
+
+.section-text {
+  font-family: mr-eaves-modern, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  color: rgb(73, 34, 11);
+  font-size: 25px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.main-body {
+  text-align: left;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.filled-background {
+  background-color: rgb(247, 219, 174);
+  border: 15px solid rgb(247, 219, 174);
+  margin-bottom: 20px;
+}
+
+.section-heading {
+  margin-left: 100px;
+  font-family: mr-eaves-modern, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  color: rgb(73, 34, 11);
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+.project-title-heading {
+  font-family: mr-eaves-modern, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: rgb(73, 34, 11);
+  font-size: 40px;
+  margin-left: 100px;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: auto;
+}
+
+.hi-fi-image {
+  width: 400px;
+}
+
+.logo {
+  width: 200px;
+}
+
+@media screen and (max-width: 900px) {
+  .section-text {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}

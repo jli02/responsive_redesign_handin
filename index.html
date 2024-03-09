@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML/CSS Studio</title>
+    <!-- import CSS styles -->
+    <link rel="stylesheet" href="https://use.typekit.net/wry0bhy.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body style="background-color: rgb(255, 241, 214)">
+    <div class="project-title">
+    <h1 class="project-title-heading">Responsive Redesign: Hunan Garden Website</h1>
+    </div>
+    <div class="main-body">
+
+    <div class="filled-background">
+    <h2 class="section-heading">Background</h2>
+    <p class="section-text">
+      Oftentimes, websites for local businesses are not created by designers.
+      Out of curiosity, I decided to check out the website for my family's own
+      business, a small Chinese restaurant called Hunan Garden. (It might come
+      as a surprise, but I've never actually seen this website before this
+      because I've never had a need to &#128579;)
+      <br />
+      <br />
+      I decided to redesign Hunan Garden's website, not just because it could
+      use some touch-ups with regards to usability and accessibility, but also because it's exciting to potentially have the chance to
+      give back in some way to my parents and this restaurant that raised me.
+    </p>
+    </div>
+    <br>
+    <p class="section-text">
+      Here's what the Hunan Garden website looked like a few weeks ago:
+  </p>
+        <img
+          class="image"
+          alt="hunan garden website from a few weeks ago"
+          src="./assets/original1.png"
+        />
+
+      <br />
+
+      <p class="section-text">Here's what it currently looks like
+     
+      (<a href="http://www.7689555.com/home.aspx" target="_blank">see for yourself here!</a>):</p>
+
+        <img
+          class="image"
+          alt="current hunan garden website"
+          src="./assets/original2.png"
+        />
+ 
+      </p>
+      <p class="section-text">The main elements are images, buttons for ordering, business hours, telephone numbers, and the address. There also seems to be 
+        a place for announcements, such as "Now Hiring" or "Closed for Vacation."  </p>
+      <br>
+   
+      <h2 class="section-heading">Usability and Accessibility Concerns</h2>
+    <p class="section-text">Some initial observations:
+ 
+      <ul class="section-text">
+         <li>There are two buttons to order, which may be confusing for new users</li>
+
+      <li>The contents of the page seem a bit scattered and could be organized in
+      a more logical order</li>
+
+      <li>The text may be too small in some places, which may make some of the
+      important information not as noticeable</li>
+      <li>The website is not optimized for mobile screens</li>
+      </ul> 
+ 
+</p>
+    <p class="section-text">
+      Using WAVE, I also found that the website was missing alt text and 
+      has a link to a PDF document, which often has accessibility issues. Most
+      of the accessibility problems might not be immediately visible, but the website
+      should still be redesigned for a wide range of users, including those that may 
+      use a screen reader or rely on alt text.
+    </p>
+    <h2 class="section-heading">Sketches</h2>
+      <p class="section-text">
+        With the above concerns in mind, I did nine quick one-minute sketches before settling on a final sketch.
+      </p>
+
+      <img
+          class="image"
+          alt="quick sketches"
+          src="./assets/quick-sketches.png"
+        />
+
+        <br>
+        <img
+          class="image"
+          alt="final sketch"
+          src="./assets/final-sketch.png"
+        />
+
+        <p class="section-text">
+        Since I thought the original webpage was a little disorganized, I wanted to create a clear visual hierarchy
+        to make the information easier to digest. The final sketch intends to draw the user's eye to the menu and down to
+        the order button, hours, location, and so on. I also like the look of having a bar at the top for important
+        announcements since it jumps out when a user arrives at the page. In addition, I decided to get rid of repeating
+        elements to make the page less confusing, such as having only one button for ordering and one phone number.
+      </p>
+
+    
+ 
+    </div>
+    <h2 class="section-heading">Low-Fidelity Wireframes</h2>
+ <p class="section-text">Desktop:</p>
+    
+    <img
+          class="image"
+          alt="desktop low fidelity wireframe"
+          src="./assets/desktop-lo-fi.png"
+        />
+        <br>
+        <p class="section-text">Tablet:</p>
+           <img
+          class="image"
+          alt="tablet low fidelity wireframe"
+          src="./assets/tablet-lo-fi.png"
+        />
+        <br>
+        <p class="section-text">Mobile:</p>
+           <img
+          class="image"
+          alt="mobile low fidelity wireframe"
+          src="./assets/mobile-lo-fi.png"
+        />
+
+    <h2 class="section-heading">High-Fidelity Wireframes</h2>
+    <p class="section-text">Style Guide</p>
+     <img
+          class="image"
+          alt="style guide"
+          src="./assets/style-guide.png"
+        />
+
+        <p class="section-text">I created a visual design style guide for the main colors, typography, and reusable components.
+          Since the original website seems to have a fire theme going on (lots and lots and lots of red), I wanted to incorporate 
+          red and yellow into the color scheme. The style guide was used to inform the design of the high fidelity mockups.
+        </p>
+     <p class="section-text">Desktop:</p>
+    <img
+          class="image hi-fi-image"
+          alt="desktop high fidelity mockup"
+          src="./assets/desktop-hi-fi.png"
+        />
+        <br>
+        <p class="section-text">Tablet:</p>
+           <img
+          class="image hi-fi-image"
+          alt="tablet high fidelity mockup"
+          src="./assets/tablet-hi-fi.png"
+        />
+        <br>
+        <p class="section-text">Mobile:</p>
+           <img
+          class="image hi-fi-image"
+          alt="mobile high fidelity mockup"
+          src="./assets/mobile-hi-fi.png"
+        />
+    <h2 class="section-heading">The Redesign</h2>
+
+    <p class="section-text">
+      
+      <a href="https://jli02.github.io/responsive_redesign/" target="_blank">Click here to see the redesign!</a></p>
+      <p class="section-text">
+      I redesigned the website using HTML and CSS. Some of the features are not yet implemented, such as the
+    scrollable menu, which is just an image at the moment. The order button would also ideally lead to
+    a page where the user can see the menu items and place their order. Hopefully these will be implemented
+    in the future! : )</p>
+    <p class="section-text">One small change I made from the high-fidelity wireframe to the finished redesign is that I changed the brightness
+      of the photo behind the words "Hunan Garden." After testing my redesign using WAVE, I found that
+      there were contrast errors and decided to alleviate them by adjusting the brightness. 
+      <p class="section-text">Here's what you'll see if you go on the site from a desktop:</p>
+    
+
+       <img
+          class="image"
+          alt="final desktop redesign"
+          src="./assets/desktop-view.png"
+        />
+        <br>
+    <div class="filled-background">
+    <h2 class="section-heading">Takeaways and Other Thoughts</h2>
+    <p class="section-text">
+      1. Through this project, I gained a greater understanding of the design process for a responsive website.
+      It can be very time consuming!! Figuring out the low fidelity wireframes and high fidelity mockups 
+      definitely led to a smoother time coding. It's also very important to consider what the website looks like 
+      on screens of different sizes. I am normally on my laptop, so I usually don't notice when websites don't adjust to
+      tablet and mobile screens. Responsivity and accessibility are big things to consider when developing any
+      website.
+      </p>
+    <p class="section-text">
+      2. Even after coding the design, I feel a little conflicted about whether
+      this is the "best" website design for the restaurant. I wish I was able to
+      convey the cozy, welcoming environment of the restaurant through the
+      design. How can we design websites with intention in order to convey a specific feeling or to capture
+      the essence of what the website is for? Something I am still mulling over.
+      </p>
+     <p class="section-text">3. The original website has this cute firefly logo that I wish I was able to incorporate, but it was just difficult
+      to find a color scheme for it. Some things you have to leave behind. (But when I do a next iteration of implementing 
+      the features for this site, I'd like to find a way to bring the firefly back in. Perhaps it will call for a redesign
+      of the logo itself, but that is a project for another time...)</p>
+      <img
+          class="image logo"
+          alt="firefly logo"
+          src="./assets/hgfirefly.png"
+        />
+  
+        </div>
+    </div>
+  </body>
+</html>
